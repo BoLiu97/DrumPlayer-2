@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/start_fragment">
+
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.example.drumplayer.PracticeFragment"
+        android:label="PracticeFragment" />
+    <action android:id="@+id/action_global_practiceFragment" app:destination="@id/practiceFragment" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.drumplayer.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+    <action android:id="@+id/action_global_recordFragment" app:destination="@id/recordFragment" />
+    <fragment
+        android:id="@+id/start_fragment"
+        android:name="com.example.drumplayer.StartFragment"
+        android:label="start_fragment" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.drumplayer.MainActivity"
+        android:label="fragment_start_fragment"
+        tools:layout="@layout/fragment_start_fragment" />
+</navigation>

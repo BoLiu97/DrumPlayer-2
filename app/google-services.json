@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992209891491",
+    "firebase_url": "https://drumplayer-675e8.firebaseio.com",
+    "project_id": "drumplayer-675e8",
+    "storage_bucket": "drumplayer-675e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992209891491:android:ac4b39ced289f913488f16",
+        "android_client_info": {
+          "package_name": "com.example.drumplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992209891491-2n48pvk7qnprkc3sfa49h6vvuk8rogmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGpH6N_UhSVwStNQ0zrloW_3x1OUqnKw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992209891491-2n48pvk7qnprkc3sfa49h6vvuk8rogmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
